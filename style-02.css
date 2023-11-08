@@ -7,7 +7,82 @@
 /* Add your CSS here */
 
 
+ 
+.grid-container { 
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.item-1 {
+ grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+  background-color: rgb(25, 80, 62);
+
+}
+
+.item-2 {
+  grid-column-start: 3;
+  grid-row-start: 1;
+
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+
+  color: #fff;
+  background-color: rgb(25, 185, 132);
+
+}
+
+.item-3 {
+  grid-column-start: 4;
+  grid-row-start: 1;
+  grid-row-end: 4;
+
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+
+  background-color: rgb(43, 115, 91);
+}
+
+.item-4 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+ 
+  background-color: rgb(92, 204, 166);
+
+}
+
+.item-5 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+
+  color: #fff;
+  background-color: #2E8B57;
+}
 
 
 
